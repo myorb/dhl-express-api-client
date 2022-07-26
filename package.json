@@ -1,0 +1,45 @@
+{
+  "name": "dhl-express-api-client",
+  "version": "0.0.1",
+  "description": "DHL express API client",
+  "author": "Oleksandr Shalaiev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myorb/dhl-express-api-client"
+  },
+  "keywords": [
+    "DHL",
+    "typescript",
+    "Shipping",
+    "Rating",
+    "Tracking",
+    "DHL Express",
+    "MyDHL API"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "whatwg-fetch": "^3.0.0",
+    "es6-promise": "^4.2.4",
+    "url-parse": "^1.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.0",
+    "@types/url-parse": "1.4.4"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "./dist"
+  ]
+}
